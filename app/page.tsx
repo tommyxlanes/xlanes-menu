@@ -791,6 +791,14 @@ export default function XLanesMenu() {
                 : "bg-gradient-to-r from-pink-400 to-rose-400"
             }`}
           />
+          {(activeCategory === "burgers" ||
+            activeCategory === "sandwiches") && (
+            <p
+              className={`mt-3 text-sm text-center ${darkMode ? "text-amber-500" : "text-amber-600"}`}
+            >
+              * Served with Fries or House Salad
+            </p>
+          )}
         </div>
 
         {/* Build Your Own Pizza Section */}
