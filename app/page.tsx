@@ -924,14 +924,12 @@ export default function XLanesMenu() {
             darkMode ? "text-slate-500" : "text-slate-400"
           }`}
         >
-          <p className="mb-1">
-            * 20% Service charge added to parties of 4+ & open tabs
-          </p>
           <p
             className={`font-medium ${darkMode ? "text-rose-500" : "text-rose-600"}`}
           >
-            Burgers & Sandwiches served with Fries or House Salad
+            * 20% Service charge added to parties of 4+ & open tabs
           </p>
+          &nbsp;
         </div>
       </main>
 
